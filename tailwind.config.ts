@@ -13,6 +13,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      // Add dark mode theme configuration
+      darkMode: 'class',
+    },
+  },
+  // Add dark mode variant to our theme
+  variants: {
+    extend: {
+      backgroundColor: ['dark'],
+      borderColor: ['dark'],
+      textColor: ['dark'],
     },
   },
   plugins: [],
