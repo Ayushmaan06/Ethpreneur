@@ -1,0 +1,19 @@
+.dark-mode {
+  /* Dark mode background color */
+  background-color: #333;
+}
+
+.dark-mode .text-primary {
+  /* Dark mode primary text color */
+  color: #fff;
+}
+
+.dark-mode .bg-primary {
+  /* Dark mode primary background color */
+  background-color: #444;
+}
+
+.dark-mode .border-primary {
+  /* Dark mode primary border color */
+  border-color: #555;
+}
